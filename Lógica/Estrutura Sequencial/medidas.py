@@ -1,0 +1,9 @@
+a = float(input("Digite a medida A: "))
+b = float(input("Digite a medida B: "))
+c = float(input("Digite a medida C: "))
+area_quadrado = a ** 2
+area_triangulo = (a * b) / 2
+area_trapezio = ((a + b) * c) / 2
+print("Area do quadrado =", area_quadrado)
+print("Area do triangulo =", area_triangulo)
+print("Area do trapezio =", area_trapezio)
